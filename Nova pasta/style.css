@@ -1,0 +1,76 @@
+ body {
+     background-color: hsl(0, 0%, 8%);
+     font-family: 'Inter', sans-serif;
+     color: hsl(0, 0%, 100%);
+     font-size: 14px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+ }
+
+ .profile-card {
+     background-color: hsl(0, 0%, 12%);
+     padding: 2rem;
+     border-radius: 15px;
+     text-align: center;
+     width: 375px;
+     box-sizing: border-box;
+ }
+
+ .profile-card img {
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;
+     object-fit: cover;
+     margin-bottom: 1rem;
+ }
+
+ .profile-card h1 {
+     margin: 0;
+     font-weight: 700;
+     font-size: 1.5rem;
+ }
+
+ .profile-card .location {
+     color: hsl(75, 94%, 57%);
+     font-weight: 600;
+     margin: 0.25rem 0 1rem 0;
+ }
+
+ .profile-card p {
+     font-weight: 400;
+     font-style: italic;
+     margin: 0 0 1.5rem 0;
+     color: hsl(0, 0%, 70%);
+ }
+
+ .profile-card a.button {
+     display: block;
+     background-color: hsl(0, 0%, 20%);
+     color: hsl(0, 0%, 100%);
+     text-decoration: none;
+     font-weight: 700;
+     padding: 0.75rem;
+     margin: 0.25rem 0;
+     border-radius: 8px;
+     transition: background-color 0.3s ease;
+ }
+
+ .profile-card a.button:hover {
+     background-color: hsl(75, 94%, 57%);
+     color: hsl(0, 0%, 8%);
+ }
+
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+     margin-top: 2rem;
+     color: hsl(0, 0%, 50%);
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+ }
